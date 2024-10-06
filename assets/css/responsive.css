@@ -1,0 +1,31 @@
+@media (max-width : 1200px){
+
+    .section-1 .menu li{
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-8 {
+        padding: 30px;
+    }
+
+    .section-8 .count-item{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section-8 .count-item .Hover:hover{
+        margin-top: 0;
+    }
+
+    .section-8 .count-item::after{
+        content: "";
+        position: relative;
+    }
+
+    .section-8 .count-item strong {
+        margin-top: 0 ;
+    }
+}
